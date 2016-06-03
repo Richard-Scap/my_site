@@ -185,7 +185,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(image-path("callout.jpg")) no-repeat center center scroll;
+    background: url(image-path("KSC.jpg")) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -219,6 +219,85 @@ hr.small {
 .call-to-action .btn {
     margin: 10px;
 }
+
+/* Resume */
+
+#resume {
+    clear: left;
+    margin-left: 20px;
+    font-family: sans-serif, serif;
+}
+
+.org {
+    display: inline;
+    float: left;
+}
+
+.org > p {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.org a {
+    font-weight: normal;
+    text-decoration: none;
+    color: green;
+}
+
+.org a:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+.role {
+    font-weight: normal;
+    display: block;
+    clear:left
+}
+
+.exp-date {
+    display: inline;
+    float: right;
+}
+
+.exp-type {
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.repos {
+    margin-top: 10px;
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+.repos-def {
+    font-weight: bold;
+    clear: left;
+}
+
+.repos-def > ul > li > p {
+    font-weight: normal;
+    display: inline;
+}
+
+.repos-def > ul > li > ul {
+    font-weight: normal;
+}
+
+/* About me */
+
+.background {
+    text-align: left;
+    text-indent: 50px;
+}
+
+
+
 
 /* Map */
 
