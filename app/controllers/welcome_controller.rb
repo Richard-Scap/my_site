@@ -4,7 +4,6 @@ class WelcomeController < ApplicationController
 	end
 
 	def welcome
-		@welcome = 'Welcome to my_site :)'
 	end
 
 	def edit

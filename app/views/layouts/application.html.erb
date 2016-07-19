@@ -5,419 +5,420 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
 
-    <!-- Bootstrap Core CSS -->
-    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="stylesheets/stylish-portfolio.css.scss" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="stylesheets/stylish-portfolio.css.scss" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom Fonts -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Richard Scappaticci</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Welcome</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About me</a>
-            </li>
-            <li>
-                <a href="#skills" onclick = $("#menu-close").click(); >Skills</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Experience</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
-    </nav>
+  <!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#top"  onclick = $("#menu-close").click(); >Richard Scappaticci</a>
+        </li>
+        <li>
+          <a href="#top" onclick = $("#menu-close").click(); >Welcome</a>
+        </li>
+        <li>
+          <a href="#about" onclick = $("#menu-close").click(); >About me</a>
+        </li>
+        <li>
+          <a href="#skills" onclick = $("#menu-close").click(); >Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio" onclick = $("#menu-close").click(); >Experience</a>
+        </li>
+        <li>
+          <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+        </li>
+    </ul>
+  </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Richard Scappaticci</h1>
-            <h3>Welcome to my site!</h3>
-            <h4>The best place to find out about me &amp; more</h4>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+  <!-- Header -->
+  <header id="top" class="header">
+    <div class="text-vertical-center">
+      <h1>Richard Scappaticci</h1>
+      <h3>Welcome to my site!</h3>
+      <h4>The best place to find out about me &amp; more</h4>
+      <br>
+      <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>About me</h2>
+          <p class="lead">A brief background</p>
+          <hr class="small">
+          <p class="background">
+            I am originally from New York, not New York, New York (aka New York City), but just outside of it, so the above picture still applies. To be more proceise I am from Harrison, NY; a small satelite town of NYC historically a cultivation of Italians (hence my last name) with absolutely phenomenal food and a tight knit communnity.
+          </p>
+          <p></p>
+          <p class="background">
+            I grew up playing sports and video games with friends and tinkered with just about every piece of technology I could get my hands on. Graduated Elementary, Middle, and High School in Harrison then took my talents to Keene, NH where I attended college.
+          </p>
+          <p></p>
+          <p class="background">
+            Upon graduating I immediately moved to Texas, where I started my professional career as a data analyst with Citigroup. One year into my career I saw the light. I knew that I wanted to make a career change towards software development, and immediately started studying, going through tutorials, basically working with anything avai lable to me that would increase my skills. Almost two years later, three years into my initial career, I am ready for the move and actively looking for the right opportunity to make the change I have been working towards!
+          </p>
         </div>
-    </header>
+      </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About me</h2>
-                    <p class="lead">A brief background</p>
-                    <hr class="small">
-                    <p class="background">
-                    I am originally from New York, not New York, New York (aka New York City), but just outside of it, so the above picture still applies. To be more proceise I am from Harrison, NY; a small satelite town of NYC historically a cultivation of Italians (hence my last name) with absolutely phenomenal food and a tight knit communnity.
-                    </p>
-                    <p></p>
-                    <p class="background">
-                    I grew up playing sports and video games with friends and tinkered with just about every piece of technology I could get my hands on. Graduated Elementary, Middle, and High School in Harrison then took my talents to Keene, NH where I attended college.
-                    </p>
-                    <p></p>
-                    <p class="background">
-                    Upon graduating I immediately moved to Dallas, TX where I started my professional career as a data analyst with Citigroup. 2 years into my career I saw the light. I knew that I wanted to make a career change towards software development, and immediately started studying, going through tutorials, basically working with anything that would increase my skills. 1 year later, 3 years into my initial career, I am ready for the move and actively looking for the right opportunity to make the change I have been waiting for!
-                    </p>
-
-                </div>
+  <!-- Skills -->
+  <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+  <section id="skills" class="services bg-primary">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h2>My Skills</h2>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-bar-chart fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                    <strong>Data Analysis</strong>
+                </h4>
+                <p>
+                  I have been crunching numbers, developing reports, and automating reports for the past 3 years
+                </p>
+               <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Skills -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="skills" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>My Skills</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-bar-chart fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Data Analysis</strong>
-                                </h4>
-                                <p>I have been crunching numbers, developing reports, and automating reports for the past 3 years</p>
-                               <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-diamond fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Ruby</strong>
-                                </h4>
-                                <p>Over the past year and some months I have focused my efforts primarily with Ruby and Ruby on Rails</p>
-                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-gears fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Process Improvement</strong>
-                                </h4>
-                                <p>I currently have a Six Sigma Yellow Belt certification and have completed a Six Sigma Green Belt course</p>
-                               <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-hourglass-half fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Quick Learner</strong>
-                                </h4>
-                                <p>I taught myself VBA and SQL queries on the job and have been learning development rapidly on the side</p>
-                              <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-diamond fa-stack-1x text-primary"></i>
+              </span>
+                <h4>
+                    <strong>Ruby</strong>
+                </h4>
+                <p>
+                  Over the past year and some months I have focused my efforts primarily with Ruby and Ruby on Rails
+                </p>
+                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
             </div>
-            <!-- /.row -->
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-gears fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                    <strong>Process Improvement</strong>
+                </h4>
+                <p>
+                  I currently have a Six Sigma Yellow Belt certification and have completed a Six Sigma Green Belt course
+                </p>
+               <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-hourglass-half fa-stack-1x text-primary"></i>
+              </span>
+                  <h4>
+                      <strong>Quick Learner</strong>
+                  </h4>
+                  <p>
+                    I taught myself VBA and SQL queries on the job and have been learning development rapidly on the side
+                  </p>
+                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
+            </div>
+          </div>
+            <!-- /.row (nested) -->
         </div>
-        <!-- /.container -->
-    </section>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Professional Experience</h2>
-                    <hr class="small">
-                </div>
-                <div id="resume">
-                    <div class="org"><p>Citigroup</p></div>
-                    <div class="exp-date">January 2016 - Present</div>
-                    <div class="role"><em>Assistant Vice President</em></div>
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>Professional Experience</h2>
+            <hr class="small">
+          </div>
+          <div id="resume">
+            <div class="org"><p>Citigroup</p></div>
+            <div class="exp-date">January 2016 - Present</div>
+            <div class="role"><em>Assistant Vice President</em></div>
+            <ul>
+                <li>Spearheaded multiple projects & coordinated deliverables (e.g. New Automation Gateway, tooling projects) while developing new metrics for several organizations across Citi’s Technology Infrastructure (CTI)
+                </li>
+                <li>Managed development of new ServiceNow module: established requirements, performed all feature tests, provide signoff on requirements.
+                </li>
+            </ul>
+            <div class="role"><em>Assistant Vice President</em></div>
+            <div class="exp-date">July 2013 - December 2015</div>
+            <ul>
+              <li>
+                  Team lead for all tooling initiatives - HuddleBoards, Executive Dashboards
+              </li>
+              <li>
+                  Researched, developed, and tested new methodologies for analyzing metrics: VLOOKUP, MIN MAX Arrays, use of dynamic ranges, SUMIFS, COUNTIFS, etc.
+              </li>
+              <li>
+                  Taught several self-developed trainings: Lean IT; ServiceNow; HuddleBoards (excel based tool) etc.
+              </li>
+              <li>
+                  Organized and conducted focus groups for data analyses as a part of our ‘Lean IT Transformation’
+              </li>
+              <li>
+                  Built, tested, and supported excel based tools such as: HuddleBoards, Time tracking reporting tools.
+              </li>
+              <li>
+                  Automated additional reports (e.g. Time tracking, etc.) using VBA; For loop, With statement, If statement, & all front end common functions (e.g. formatting, filtering, formulas, etc.)
+              </li>
+              <li>
+                  Received Multiple "Rave Praise Awards"(monetary reward for high achievement)
+              </li>
+            </ul>
+            <div class="exp-type">
+                <h2>Programming Experience</h2>
+                <hr class="small">
+            </div>
+            <div class="org"><p>Github:</p> <a href="https://github.com/Richard-Scap">https://github.com/Richard-Scap</a>
+            </div>
+            <div class="repos">Repos:</div>
+            <div class="repos-def">
+              <ul>
+            <!--  repo title     -->
+                <li>
+                    data_of_cerberus - <p>Web-scraping application that will help generate sales leads</p>
+                    <!--   repo description  -->
+                  <ul>
+                    <li>
+                        Web-scraper which collects  business info based on keyword searches such as City and Industry
+                    </li>
+                    <li>
+                        Uses Selenium webdriver bundled with the Yelp Api (to get past Yelp Api limits)
+                    </li>
+                    <li>
+                         Uses command objects and MVC Design Patterns
+                    </li>
+                  <!-- /repo description -->
+                  </ul>
+                <!--  /repo title     -->
+                </li>
+                  <!-- repo title -->
+                  <li>
+                      odin_project
+                      <!-- repo description -->
                     <ul>
-                        <li>Spearheaded multiple projects & coordinated deliverables (e.g. New Automation Gateway, tooling projects) while developing new metrics for several organizations across Citi’s Technology Infrastructure (CTI)
-                        </li>
-                        <li>Managed development of new ServiceNow module: established requirements, performed all feature tests, provide signoff on requirements.
-                        </li>
+                      <li>
+                        <em>ceasar_cypher</em> - Replicated Caesar’s Cipher encryption in ruby. Overemphasized Object Oriented Programming by a library of classes (Ruby)
+                      </li>
+                      <li>
+                        <em>bubble_sort</em> - Developed bubble sorting algorithm (Ruby)
+                      </li>
+                      <li>
+                        <em>stock_picker</em> - Program which provides the best day to buy and sell a stock in any given set of days & stock price. (hindsight algorithm, Ruby)
+                      </li>
+                    <!--  /repo description -->
                     </ul>
-                    <div class="role"><em>Assistant Vice President</em></div>
-                    <div class="exp-date">July 2013 - December 2015</div>
+                  <!-- /repo title odin_project-->
+                  </li>
+              <!-- repo title -->
+                  <li>
+                      tee-news - <p>created a hackernews clone using the MEAN stack</p>
                     <ul>
-                        <li>
-                            Team lead for all tooling initiatives - HuddleBoards, Executive Dashboards
-                        </li>
-                        <li>
-                            Researched, developed, and tested new methodologies for analyzing metrics: VLOOKUP, MIN MAX Arrays, use of dynamic ranges, SUMIFS, COUNTIFS, etc.
-                        </li>
-                        <li>
-                            Taught several self-developed trainings: Lean IT; ServiceNow; HuddleBoards (excel based tool) etc.
-                        </li>
-                        <li>
-                            Organized and conducted focus groups for data analyses as a part of our ‘Lean IT Transformation’
-                        </li>
-                        <li>
-                            Built, tested, and supported excel based tools such as: HuddleBoards, Time tracking reporting tools.
-                        </li>
-                        <li>
-                            Automated additional reports (e.g. Time tracking, etc.) using VBA; For loop, With statement, If statement, & all front end common functions (e.g. formatting, filtering, formulas, etc.)
-                        </li>
-                        <li>
-                            Received Multiple "Rave Praise Awards"(monetary reward for high achievement)
-                        </li>
+                      <li>
+                        Technologies used: NodeJs, AngularJs, Express, MongoDb, Heroku        
+                      </li>
+                      <li>
+                        link: <a href="tee-news.herokuapp.com">
+                                tee-news.herokuapp.com
+                              </a>
+                      </li>
                     </ul>
-                    <div class="exp-type">
-                        <h2>Programming Experience</h2>
-                        <hr class="small">
-                    </div>
-                    <div class="org"><p>Github:</p> <a href="https://github.com/Richard-Scap">https://github.com/Richard-Scap</a>
-                    </div>
-                    <div class="repos">Repos:</div>
-                    <div class="repos-def">
-                        <ul>
-                        <!--  repo title     -->
-                            <li>
-                                data_of_cerberus - <p>Web-scraping application that will help generate sales leads</p>
-                            <!--   repo description  -->
-                                <ul>
-                                    <li>
-                                        Web-scraper which collects  business info based on keyword searches such as City and Industry
-                                    </li>
-                                    <li>
-                                        Uses Selenium webdriver bundled with the Yelp Api (to get past Yelp Api limits)
-                                    </li>
-                                    <li>
-                                         Uses command objects and MVC Design Patterns
-                                    </li>
-                            <!-- /repo description -->
-                                </ul>
-                            <!--  /repo title     -->
-                            </li>
-                            <!-- repo title -->
-                            <li>
-                                odin_project
-                                <!-- repo description -->
-                                <ul>
-                                    <li>
-                                        <em>ceasar_cypher</em> - Replicated Caesar’s Cipher encryption in ruby. Overemphasized Object Oriented Programming by a library of classes (Ruby)
-                                    </li>
-                                    <li>
-                                        <em>bubble_sort</em> - Developed bubble sorting algorithm (Ruby)
-                                    </li>
-                                    <li>
-                                        <em>stock_picker</em> - Program which provides the best day to buy and sell a stock in any given set of days & stock price. (hindsight algorithm, Ruby)
-                                    </li>
-                                <!--  /repo description -->
-                                </ul>
-                            <!-- /repo title odin_project-->
-                            </li>
-                        <!-- repo title -->
-                            <li>
-                                mock_twitter_app - <p>A mock twitter app written in RoR</p>
-                            </li>
+                  </li>
+                  <li>
+                    mock_twitter_app - <p>A mock twitter app written in RoR</p>
+                  </li>
 
-                            <li>
-                                my_site - <p>This website!</p>
-                            </li>
-
-                        <!-- /repo title -->
-                        </ul>
-                    <!--  div /repos-def -->    
-                    </div>
-                    <div class="exp-type">
-                        <h2>Freelance Experience</h2>
-                        <hr class="small">
-                    </div>
-                    <div class="repos-def">
-                        <ul>
-                            <li>
-                                Kitchen Ninja: <p>Shared services model, developed web application platform</p>
-                            </li> 
-                        
-                            <li>
-                                Peruz: <p>Founder, Project Manager of a Tinder like web / mobile app for apparel and accessories</p>
-                            </li>
-                            <li>
-                                Teejoy: <p>Created a yelp scraper web application to gather potential sales leads for businesses</p>
-                            </li>
-                        </ul>
-
-                    </div>
-
-
-                <!-- div /resume -->
-                </div>
-
-                    <!-- /.row (nested) -->
-                <div class="col-lg-10 col-lg-offset-1 text-center">    
-                    <a href="#" class="btn btn-dark">Back to Top</a>
-                </div>
-                <!-- /.col-lg-10 -->
+                <li>
+                    Pokemongo.fans - <p>founder / creator. This is an experiment to see how much traffic we can generate off of the recent Pokemon Go phenomina. Currently ~1000 registered users and climbing.</p>
+                </li>
+                <li>
+                    my_site - <p>This website!</p>
+                </li>
+                <!-- /repo title -->
+              </ul>
+            <!--  div /repos-def -->    
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h2>Education</h2>
-            <h3>Keene State College</h3>
-            <h4>BS, Management (cum laude)</h4>
-            <h5>Concentration in Computer Science</h5>
-        </div>
-    </aside>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Thank you for reading!</h3>
-                    <a href="#" class="btn btn-lg btn-light">Back to top</a>
-            <!--    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
-                </div>
+            <div class="exp-type">
+                <h2>Freelance Experience</h2>
+                <hr class="small">
             </div>
-        </div>
-    </aside>
-
-    <!-- Map -->
-    <!--
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
-    -->
-    <!-- Footer -->
-    <section id="contact">
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 style="margin-top:-50px"><strong>Contact</strong></h2>
-                    <hr class="small">
-                    <h4><strong>Richard Scappaticci</strong>
-                    </h4>
-                    <p>5132 Amesbury Dr.<br>Dallas, TX 75206</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (914) 484-5865</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:rscappaticci.jr@gmail.com">rscappaticci.jr@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.linkedin.com/in/richard-scappaticci-jr-0227a675?trk=hp-identity-name"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Richard-Scap"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; My Website 2016</p>
-                </div>
+            <div class="repos-def">
+              <ul>
+                <li>
+                  Kitchen Ninja: <p>Shared services model, developed web application platform</p>
+                </li> 
+            
+                <li>
+                  Peruz: <p>Founder, Project Manager of a Tinder like web / mobile app for apparel and accessories</p>
+                </li>
+                <li>
+                  Teejoy: <p>Created a yelp scraper web application to gather potential sales leads for businesses</p>
+                </li>
+              </ul>
             </div>
+          <!-- div /resume -->
+          </div>
+              <!-- /.row (nested) -->
+          <div class="col-lg-10 col-lg-offset-1 text-center">    
+              <a href="#" class="btn btn-dark">Back to Top</a>
+          </div>
+          <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <!-- Callout -->
+  <aside class="callout">
+    <div class="text-vertical-center">
+      <h2>Education</h2>
+      <h3>Keene State College</h3>
+      <h4>BS, Management (cum laude)</h4>
+      <h5>Concentration in Computer Science</h5>
+    </div>
+  </aside>
+
+  <!-- Call to Action -->
+  <aside class="call-to-action bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3>Thank you for reading!</h3>
+          <a href="#" class="btn btn-lg btn-light">Back to top</a>
+  <!--    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
         </div>
-    </footer>
-    </section>
+      </div>
+    </div>
+  </aside>
 
-    <!-- jQuery -->
-   <!-- <script src="js/jquery.js"></script> -->
-    <script src="<%= asset_path('jquery.js')%>"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="<%= asset_path('bootstrap.min.js')%>"></script>
+  <!-- Footer -->
+  <section id="contact">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2 style="margin-top:-50px"><strong>Contact</strong></h2>
+          <hr class="small">
+          <h4><strong>Richard Scappaticci</strong>
+          </h4>
+          <p>802 Buckingham Pl.<br>Austin, TX 78745</p>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-phone fa-fw"></i> (914) 484-5865</li>
+            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:rscappaticci.jr@gmail.com">rscappaticci.jr@gmail.com</a>
+            </li>
+          </ul>
+          <br>
+          <ul class="list-inline">
+              <li>
+                <a href="https://www.linkedin.com/in/richard-scappaticci-jr-0227a675?trk=hp-identity-name"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Richard-Scap"><i class="fa fa-github fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+              </li>
+          </ul>
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; My Website 2016</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </section>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+  <!-- jQuery -->
+  <!-- <script src="js/jquery.js"></script> -->
+  <script src="<%= asset_path('jquery.js')%>"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="<%= asset_path('bootstrap.min.js')%>"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script>
+  // Closes the sidebar menu
+  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+
+  // Opens the sidebar menu
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+
+  // Scrolls to the selected menu item on the page
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+              scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
     });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
-
-</body>
+  });
+  </script>
 
 </body>
 </html>
